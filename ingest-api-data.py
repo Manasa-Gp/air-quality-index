@@ -19,7 +19,7 @@ current_time_ist = datetime.now(ist_timezone)
 timestamp = current_time_ist.strftime('%Y_%m_%d_%H_%M_%S')
 
 # Create the file name
-file_name = f'air_quality_data_{timestamp}.json'
+file_name = f'air_quality_data_{today_string}.json'
 
 today_string = current_time_ist.strftime('%Y_%m_%d')
 
